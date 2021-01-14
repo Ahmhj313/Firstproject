@@ -1,13 +1,17 @@
 import math
 import random
+# The currencies list
+# It only converts from USD to one of these currencies
 KWD = 0.303203
 EUR = 0.822786
 GBP = 0.733632
 IRR = 41738.96
 XBT = 0.0000264505 
-x = float(input("Please insert the value: "))
+# Choose the currency
 y = input("Please insert the currency: ")
+x = float(input("Please insert the value: "))
 y = y.upper()
+# Now let hte CPU do its' work ;)
 if y=="KWD":
     z=round(x*KWD,2)
     z=str(z)
